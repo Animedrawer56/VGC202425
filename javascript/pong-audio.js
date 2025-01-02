@@ -45,12 +45,15 @@ export var soundArray = []; //list of sounds loaded
 
 export var wallSound = new soundFile("ahhhhhhh sound.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
+wallSound.player.volume.value = -10; //turn down volume
 
 export var paddleSound = new soundFile("hit sound.mp3");
 soundArray.push(paddleSound);
+paddleSound.player.volume.value = -5; //turn down volume
 
-export var scoreSound = new soundFile("silence.mp3");
+export var scoreSound = new soundFile("ahhhhhhh sound.mp3");
 soundArray.push(scoreSound);
+scoreSound.player.volume.value = -10; //turn down volume
 
 export var ambientSound = new soundFile("slience.mp3");
 soundArray.push(ambientSound);
@@ -60,7 +63,7 @@ ambientSound.player.volume.value = -20; //turn down volume
 export var adventureMusic = new soundFile("background sound.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -16;
+adventureMusic.player.volume.value = -10;
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
