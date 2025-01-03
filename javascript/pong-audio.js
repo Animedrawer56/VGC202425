@@ -43,9 +43,8 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("ahhhhhhh sound.mp3"); //load sound
+export var wallSound = new soundFile("silence.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
-wallSound.player.volume.value = -10; //turn down volume
 
 export var paddleSound = new soundFile("hit sound.mp3");
 soundArray.push(paddleSound);
