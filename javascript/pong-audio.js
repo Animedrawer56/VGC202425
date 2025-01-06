@@ -54,12 +54,12 @@ export var scoreSound = new soundFile("ahhhhhhh sound.mp3");
 soundArray.push(scoreSound);
 scoreSound.player.volume.value = -10; //turn down volume
 
-export var ambientSound = new soundFile("background sound.mp3");
+export var ambientSound = new soundFile("White noise.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -10; //turn down volume
+ambientSound.player.volume.value = -30; //turn down volume
 
-export var adventureMusic = new soundFile("silence.mp3");
+export var adventureMusic = new soundFile("background sound.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -10;
